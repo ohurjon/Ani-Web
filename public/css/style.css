@@ -1,0 +1,20 @@
+#container {
+    padding: 30px;
+    display: flex;
+    height: 100vh;
+}
+
+#list {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+#dataList {
+    padding-top: 10px;
+}
+
+#player {
+    width: 70%;
+    padding: 10px;
+}

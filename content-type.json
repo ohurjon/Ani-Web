@@ -1,0 +1,10 @@
+{
+  "default": "text/html",
+  ".html": "text/html",
+  ".css": "text/css",
+  ".mjs": "application/javascript",
+  ".js": "application/javascript",
+  ".png": "image/png",
+  ".svg": "image/svg+xml",
+  ".json": "application/json"
+}
