@@ -1,4 +1,4 @@
-fetch("api/list")
+fetch("api/animations")
   .then((response) => response.json())
   .then((jsonData) => {
     const dataList = document.getElementById("dataList");
@@ -27,7 +27,7 @@ function addData(title) {
 
   $.ajax({
     type: "post",
-    url: "api/data",
+    url: "api/animation",
     traditional: false,
     data: JSON.stringify(params),
     dataType: "json",
